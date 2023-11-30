@@ -1,0 +1,10 @@
+The port that the server will listen on is given with an info file named port.info 
+on the same folder as the main.py file or exe. It will contain only the port number. 
+If not provided it's created automatically with port 1357.
+
+- File name: port.info
+- File location: in the same folder as the server's code files
+- File content: port number
+
+The server will save the clients credentials and file descriptions in a file named defensive.db,
+using sqlite3. It is created automatically.
