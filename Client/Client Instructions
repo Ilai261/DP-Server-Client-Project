@@ -1,0 +1,15 @@
+Client instructions:
+On the same folder as the exe or main.cpp, you in order to register to the server you need to add an info file as such:
+File name: transfer.info
+File location: in the folder of the executable file (exe.)
+The content of the file: first line - IP address + colon + port number 
+second line - client name (string up to 100 characters) 
+third line - the path of the file to send to the server.
+
+Example:
+127.0.0.1:1234 
+Michael Jackson
+New_product_spec.docx
+
+after registering to the server two files, me.info and priv.key will be created, you don't need to touch them. 
+They will be used for reconnecting as this user, corrupting them will lead to an attempt to register again.
